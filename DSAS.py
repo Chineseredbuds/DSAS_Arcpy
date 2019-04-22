@@ -33,7 +33,7 @@ for root, dirs, files in os.walk(router):
 			arcpy.FeatureClassToFeatureClass_conversion(input_shp, DSAS_mdb,FCName)
 
 Field_names=['OBJECTID','SHAPE','SHAPE_LENGTH','DATE_','UNCERTAINTY'];
-Data_type=['Object ID','Geometry','DOUBLE','DOUBLE','TEXT','FLOAT'];
+Data_type=['Object ID','Geometry','DOUBLE','TEXT','FLOAT'];
 
 if __name__=='__main__':    
 	arcpy.env.workspace=DSAS_mdb
