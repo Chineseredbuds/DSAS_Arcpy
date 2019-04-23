@@ -80,7 +80,7 @@ if __name__=='__main__':
 
 	# Set local variables
 	outLocation = DSAS_mdb
-	emptyFC = "Appendall"
+	emptyFC = "shoreline"
 	try:
 		# All polygon FCs in the workspace
 
